@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+//Escolha de pratos
+int main()
+{
+ int menu;
+ printf("ESCOLHA SEU PRATO!!!!\n");
+ printf("Prato 1\n");
+ printf("Prato 2\n");
+ printf("Prato 3\n");
+ printf("Prato 4\n");
+ printf("SAIR 5\n");
+
+ printf("Qual numero do seu prato?:");
+ scanf("%i", &menu);
+
+switch(menu)
+ {
+default:
+menu=5;
+printf("Voce optou por sair!");
+    break;
+
+case 1:
+printf("carne com batata R$:5,00");
+    break;
+case 2:
+    printf("Arroz com feijao R$:4,00");
+    break;
+
+case 3:
+    printf("Lasanha R$:6,00");
+    break;
+case 4:
+    printf("Strogonofre R$:10,00");
+    break;
+}
+
+}
